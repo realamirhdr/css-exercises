@@ -46,10 +46,11 @@ button {
 
 .backdrop {
   pointer-events: none;
-  position: fixed;
+  position: 20000;
   inset: 0;
   background: #000;
-  opacity: 0%;
+  opacity: 20%;
+  transition: 1s;
 }
 
 .popup-modal.show {
